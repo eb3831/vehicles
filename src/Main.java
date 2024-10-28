@@ -32,7 +32,7 @@ public class Main
             }
             else if ( v instanceof Regular )
             {
-                sum = sum + ( (Regular) v).getHowManyPassengers()-1;
+                sum = sum + ( (Regular) v).getHowManyPassengers() - 1;
             }
         }
         return sum;
