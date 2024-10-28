@@ -30,7 +30,7 @@ public class Main
             {
                 sum = sum + 1;
             }
-            else if (v instanceof Regular)
+            else if ( v instanceof Regular )
             {
                 sum = sum + ( (Regular) v).getHowManyPassengers()-1;
             }
